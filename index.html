@@ -16,8 +16,10 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  	<link rel="stylesheet" type="text/css" href="css/slicknav.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 	<script type="text/javascript" src="js/respond.js"> </script>
 	<script type="text/javascript" src="js/caroufredsel.js"> </script>
@@ -27,8 +29,8 @@
 		<div class="container">
 			<div class="row">
 				<a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
-				<nav class="menu" id="menu">
-					<ul>
+				<nav id="menu">
+					<ul class="menu" id="menu">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Service</a></li>
 						<li><a href="#">Our Work</a></li>
@@ -380,8 +382,8 @@
 		<section class="contact section-padding">
 				<div class="contact-header center">
 						<h1 class="white">Contact Us</h1>
-						<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-				</div>
+						<p class="white">It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+				</div class="contact-form">
 				<form>
 					<fieldset>
 						<input type="text" id="name" placeholder="Name">
@@ -401,7 +403,37 @@
 				</form>
 		</section>
 
-	
+		<!--Footer-->
+		<footer class="footer section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h1>About Corporate</h1>
+						<p class="about">The point of using Lorem Ipsum is that it has a <br>more-or-less normal distribution of letters, as opposed <br>to using 'Content here, content here', making it look like<br> readable English.</p>
+						<p><i class="fa fa-envelope"></i><span class="contect-email">corporate@email.com</span></p>
+						<p><i class="fa fa-mobile"></i><span class="contect-phone">+92312 1234 567</span></p>
+						<p><i class="fa fa-location-arrow"></i><span class="contect-location">5 siant Gulburg 3 </span></p>
+					</div>
+					<div class="col-md-4">
+							<h1>Get Blog Update</h1>
+							<form >
+								<fieldset>
+									<input type="text" id="take-email" placeholder="Enter your Email"> 
+								</fieldset>
+								<fieldset>
+										<input type="button" id="take-email" value="sign Up"> 
+									</fieldset>
+							</form>
+						</div>
+						<div class="col-md-4">
+								<h1>Stay in touch</h1>
+							</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/jquery.slicknav.min.js"> </script>
 	<script type="text/javascript" src="js/main.js"> </script>
 </body>
 </html>

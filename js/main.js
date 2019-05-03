@@ -118,5 +118,9 @@ $('.team-carousel').carouFredSel({
 				$("header").removeClass('secondary-dark-blue-bg');
 
 			}
+	});
+
+	$('#menu').slicknav({
+		label:'',
 	})
 });
